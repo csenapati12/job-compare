@@ -1,7 +1,7 @@
  node(){
     stage("Compare"){
               def completeJobName = "$JOB_NAME"
-               String actualJobName = "prod"
+               def actualJobName = "prod"
                int len = actualJobName.length();
                boolean occurance = false
                int i = 0;
