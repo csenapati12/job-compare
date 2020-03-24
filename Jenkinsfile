@@ -10,12 +10,12 @@
                        occurance = true;
                }
                if (occurance) {
-                       println("completeJobName.substring(i, i+len)")
-                       print("/var/lib/jenkins/projob")
+                      print "Its a prod job"
+                       print("/var/lib/jenkins/prodworkspace")
                }else
                {
                    print("Its QA job")
-                   print("/var/lib/jenkins/qajob")
+                   print("/var/lib/jenkins/qaworkspace")
                }
                    
                    
