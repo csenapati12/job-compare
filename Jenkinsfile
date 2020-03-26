@@ -8,6 +8,7 @@ node(){
                    print("/var/lib/jenkins/prodworkspace")
               }else{
                    print("Its QA job")
+                  echo "job name  ==="+actualJobName
                    print("/var/lib/jenkins/qaworkspace")
               }               
                    
