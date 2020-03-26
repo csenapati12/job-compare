@@ -2,7 +2,7 @@ node(){
     stage("Compare"){
               def completeJobName = "$JOB_NAME"
               def actualJobName = "prod"
-              if(completeJobName.contains("prod")){
+              if(completeJobName.contains("Prod")){
                   print "Its a prod job"
                   echo "job name  ===   "+completeJobName
                    print("/var/lib/jenkins/prodworkspace")
