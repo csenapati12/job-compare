@@ -4,11 +4,11 @@ node(){
               def actualJobName = "prod"
               if(completeJobName.contains("prod")){
                   print "Its a prod job"
-                  echo "job name  ==="+actualJobName
+                  echo "job name  ===   "+completeJobName
                    print("/var/lib/jenkins/prodworkspace")
               }else{
                    print("Its QA job")
-                  echo "job name  ==="+actualJobName
+                  echo "job name  === "+completeJobName
                    print("/var/lib/jenkins/qaworkspace")
               }               
                    
